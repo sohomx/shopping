@@ -10,6 +10,7 @@ import {
   Select,
   SelectItem,
 } from "@tremor/react";
+import Avatar from "react-avatar";
 
 const SORT_BY_MAP = {
   r: "Default",
@@ -83,6 +84,10 @@ function Header() {
             </SearchSelect>
           </div>
         </form>
+      </div>
+
+      <div className="hidden lg:flex flex-1 justify-end">
+        <Avatar name="Sohom Pal" round size="50" />
       </div>
     </header>
   );

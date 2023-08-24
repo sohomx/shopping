@@ -3,6 +3,7 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
+import SearchButton from "./SearchButton";
 
 function Header() {
   return (
@@ -30,6 +31,9 @@ function Header() {
                 className="outline-none flex-1"
               />
             </div>
+
+            {/* Search Button */}
+            <SearchButton />
           </div>
         </form>
       </div>

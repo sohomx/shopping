@@ -1,5 +1,12 @@
+type Props = {
+  searchParams: any;
+  params: {
+    term: string;
+  };
+};
+
 function SearchPage() {
-  return <div>Welcome to the search results page</div>;
+  return <div>{/* ResultsList */}</div>;
 }
 
 export default SearchPage;
